@@ -1,14 +1,24 @@
 @import './bootstrap.less';
+@import './shineout-base';
 
-@colors-blue: #197afa;
-@colors-green: #36d278;
+@colors-blue: @blue-6;
+@colors-green: @success-2;
 @colors-cyan: #1890ff;
-@colors-yellow: #ff9636;
-@colors-red: #ff3636;
+@colors-yellow: @warning-2;
+@colors-red: @error-2;
+
+@colors-secondary: @neutral-6;
 
 @caret-width: 4px;
 
 @font-family-sans-serif: 'PingFang SC', 'Hiragino KaKu Gothic Pro', 'Microsoft Sans Serif';
+
+// Button
+@btn-primary-border: @colors-primary;
+@btn-secondary-border: @colors-secondary;
+@btn-success-border: @colors-success;
+@btn-warning-border: @colors-warning;
+@btn-danger-border: @colors-danger;
 
 //@state-success-text: rgba(0, 0, 0, 0.65);
 //@state-success-bg: #f6ffed;
